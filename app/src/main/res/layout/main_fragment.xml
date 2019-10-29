@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/linearLayout"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/huai" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#ffffff"-->
+<!--        android:text="Huaiyang cuisine (淮揚菜) is one of the Four Great Traditions in Chinese cuisine. It is derived from the native cooking styles of the region surrounding the lower reaches of the Huai and Yangtze rivers, and centred upon the cities of Huai'an, Yangzhou and Zhenjiang in Jiangsu Province. Although it is one of several sub-regional styles within Jiangsu cuisine, Huaiyang cuisine is widely seen in Chinese culinary circles[1] as the most popular and prestigious style of Jiangsu cuisine – to a point where it is considered to be among one of the Four Great Traditions (四大菜系; Sì dà càixì) that dominate the culinary heritage of China, along with Cantonese cuisine, Shandong cuisine and Sichuan cuisine."-->
+<!--        android:textColor="#ff0000"-->
+<!--        android:textSize="22sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <WebView-->
+<!--            android:id="@+id/webview"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
