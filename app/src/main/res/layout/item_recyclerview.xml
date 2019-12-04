@@ -12,5 +12,7 @@
         android:layout_gravity="center_horizontal"
         android:gravity="center"
         android:text="Large Text"
+        android:textColor="#ff0000"
+        android:background="@drawable/background"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 </LinearLayout>
